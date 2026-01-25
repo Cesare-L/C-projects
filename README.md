@@ -1,2 +1,2 @@
 # C-projects
-Repository for my C langauge projects
+Repository for my C language projects
