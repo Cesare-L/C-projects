@@ -4,13 +4,13 @@
 #define STEP 20
 
 int main(void) {
-   float fahr, celcius;
+   float fahr, celsius;
 
  fahr = LOWER;
   while(fahr <= UPPER) {
-    celcius = fahr - 32;
-    celcius = celcius / 1.8;
-    printf("%.2f // %.2f \n", celcius, fahr);
+    celsius = fahr - 32;
+    celsius = celsius / 1.8;
+    printf("%.2f // %.2f \n", celsius, fahr);
     fahr = fahr + STEP;
   }
   
