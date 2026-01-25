@@ -1,13 +1,10 @@
 #include <stdio.h>
+#define lower 0
+#define upper 300
+#define step 20
 
 int main(void) {
    float fahr, celcius;
-   int upper, lower, step;
-
-  lower = 0;
-  upper = 300;
-
-  step = 20;
 
  fahr = lower;
   while(fahr <= upper) {
