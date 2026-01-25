@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-   int fahr, celcius;
+   float fahr, celcius;
    int upper, lower, step;
 
   lower = 0;
@@ -13,7 +13,7 @@ int main(void) {
   while(fahr <= upper) {
     celcius = fahr - 32;
     celcius = celcius / 1.8;
-    printf("%i // %i \n", celcius, fahr);
+    printf("%f // %f \n", celcius, fahr);
     fahr = fahr + step;
   }
   
