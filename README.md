@@ -7,4 +7,4 @@ Repository for my C language projects
 
 - encrypt.c: a boilerplate for a command line encryption and decryption program, you must implement your own logic for the cipher() and dechiper() functions
 
-- XOR-cipher.c: A XOR cipher implemented in C with a 4092 bit passphrase generator, it is mostly educational and has significant vulnerabilties such as the usage of rand() function which is pseudorandom, frequency analysis vulnerabilities, key recovery vulnerabilties etc..., use it at your own risk.n
+- XOR-cipher.c: A XOR cipher implemented in C with a 4092 bit passphrase generator, it is mostly educational and has significant vulnerabilties such as the usage of rand() function which is pseudorandom and can potentially be brute forced, frequency analysis vulnerabilities if re-using the same keys, key recovery vulnerabilties if using the same key etc..., use it at your own risk
