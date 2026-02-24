@@ -1,5 +1,5 @@
 # C-projects
-Repository for my C language projects
+Repository for my C language programs, focus is on highlighting concepts of the C language to utilize for future brush ups and reviews.
 
 - Farenheit-to-Celcius.c: a classic example of a program, inspired by "The C Programming Language" book
   
